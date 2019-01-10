@@ -1,0 +1,51 @@
+/*--------------------TAG SELECTION--------------------*/
+
+body {
+  margin : 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*--------------------CLASS SELECTION--------------------*/
+
+.cloud-one {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+
+.cloud-two {
+  position: absolute;
+  left: 600px;
+  bottom: 300px;
+}
+
+.header {
+  background-color: #66bfbf;
+  height: 50px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  position: fixed;
+  width: 75%;
+  z-index: 1;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  top: 50px;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #66bfbf;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container {
+  background-color: #f76b8a;
+  height: 200px;
+  width: 200px;
+}
